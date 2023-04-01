@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #161623;
+}
+
+.cointainer{
+    width: 100%;
+    height: 160vh;
+    background-image:url("./r4b.jpg");
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 2000px;
+    max-height: 2000px;
+}
+
+.card{
+    width: 100%;
+    height: 200%;
+    max-height: 1000px;
+    max-width: 1000px;
+    color:#fff;
+    text-align: center;
+    padding:50px 35px;
+    border:1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30 px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+
+}
+
+.card img{
+    justify-content: center;
+    width: 750px;
+    border-radius: 1%;
+    box-shadow: 0 4px 30 px rgba(0, 0, 0, 0.1);
+}
+
+.cointainer .card .content h2{
+    position:absolute;
+    top: 670px;
+    left: -20px;
+    right: -40px;
+    font-size: 1em;
+    color:rgb(126, 252, 47);
+    pointer-events:none;
+}
+
+.cointainer .card .content h3{
+    font-size: 2.8em;
+    color:white;
+    z-index:1;
+    top: 100px;
+    text-shadow: 1px 1px 7px #1b1b1b;
+}
+
+.cointainer .card .content p{
+    font-size: 1em;
+    display: inline-block;
+    color: #fff; 
+    font-weight: 200px;
+    text-shadow: 1px 1px 9px #1d1d1d;
+}
+
+.cointainer .card .content a{
+    position:static;
+    display:inline-block;
+    padding:8px 20px;
+    margin-top: 15px;
+    background: rgb(126, 252, 47);
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(25, 25, 25, 0.9)
+}
+
